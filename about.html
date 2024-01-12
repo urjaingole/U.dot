@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        /* Basic button styles */
+        .static-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            /* Change the color to your preferred one */
+            color: #fff;
+            /* Text color */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect */
+        .static-button:hover {
+            background-color: #2980b9;
+            /* Change the color on hover */
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">U.dot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Illustrations</a></li>
+                            <li><a class="dropdown-item" href="#">Prints</a></li>
+                        </ul>
+                    </li>
+                    <a class="nav-link" href="/contact.html">Contact</a>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container my-4">
+        <!-- First Featurette -->
+        <div class="row featurette d-flex justify-content-center align-items-center my-4">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">It all started with a
+                    <span class="text-body-secondary">BANG!!!</span>
+                </h2>
+                <p class="lead">Birth of the Big Bang Theory</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img style="object-fit: cover; height: 400px; width: 400px;"
+                    src="pic/artur-aldyrkhanov-u159a2eL6UE-unsplash.jpg" class="img-fluid" alt="Image Description">
+            </div>
+        </div>
+
+        <!-- Second Featurette -->
+        <div class="row featurette d-flex justify-content-center align-items-center my-4">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Then it turned into solid gassy big blue
+                    <span class="text-body-secondary">fragment of the universe</span>
+                </h2>
+                <p class="lead">Birth of the earth</p>
+            </div>
+            <div class="col-md-5">
+                <img style="object-fit: cover; height: 400px; width:400px;" src="pic/time lapse.jpg" class="img-fluid"
+                    alt="Image Description">
+            </div>
+        </div>
+
+        <!-- Third Featurette -->
+        <div class="row featurette d-flex justify-content-center align-items-center my-4">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Third featurette heading.
+                    <span class="text-body-secondary">It’ll blow your mind.</span>
+                </h2>
+                <p class="lead">Some great placeholder content for the third featurette here. Imagine some exciting
+                    prose here.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img style="object-fit: cover; height: 400px; width: 400px;" src="pic/gaalxy.jpg" class="img-fluid"
+                    alt="Image Description">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container my-8">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p">© 2003–2024 U.dot, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+
+</body>
+
+</html>
